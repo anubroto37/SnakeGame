@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!--This Boolean attribute is set to indicate to a browser that the script is meant to be executed after the document has been parsed, but before firing DOMContentLoaded.
+
+        Scripts with the defer attribute will prevent the DOMContentLoaded event from firing until the script has loaded and finished evaluating. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="scores">
+        <h1 id="score">000</h1>
+        <h1 id="highScore">000</h1>
+    </div>
+    <div class="text-logo">
+    </div>
+    <div class="game-border-1">
+        <div class="game-border-2">
+            <div class="game-border-3">
+
+                <div id="game-board">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <img id="logo" src="logo.png" alt="snake-logo" />
+    <h1 id="instruction-text">Press space-bar to start the game</h1>
+</body>
+
+</html>
